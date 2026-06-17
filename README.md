@@ -1,6 +1,6 @@
 # Flight Indicators Monitor Dashboard
 
-A professional, real-time Full-Stack simulation and control dashboard designed to monitor and log flight telemetry data (Altitude, HSI, and ADI). The system includes data entry logging, tabular text overview, and dynamic, responsive graphical cockpit gauges.
+A real-time Full-Stack simulation and control dashboard designed to monitor and log flight telemetry data (Altitude, HSI, and ADI). The system includes data entry logging, tabular text overview, and dynamic, responsive graphical cockpit gauges.
 
 ---
 
