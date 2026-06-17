@@ -23,11 +23,11 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 1. Navigate to the backend directory:
    ```bash
    cd backend
-
+   ```
 2. Install dependencies:
     ```bash
     npm install
-
+    ```
 3. Configure Environment Variables:
 Create a .env file in the backend root folder and add your MongoDB connection string:
     ```code
@@ -37,30 +37,29 @@ Create a .env file in the backend root folder and add your MongoDB connection st
 4. Start the server:
     ```bash
     node index.js
-
-### 3. frontend Setup
+    ```
+### 3. Frontend Setup
 1. Open a new terminal window and navigate to the frontend directory:
     ```bash
     cd frontend
-
+    ```
 2. Install dependencies:
     ```bash
     npm install
-
+    ```
 3. Configure Environment Variables (Optional):
 Create a .env file in the frontend root folder if running across a private network:
     ```code
     VITE_API_IP=your_server_ip_address
-
+    ```
 4. Start the development server:
     ```bash
     npm run dev
-
+    ```
 Note: If you want to access the app from other computers on the local network, run:
     ```bash
     npm run dev -- --host
     ```
-
 
 ## Application Preview & Features
 ### 1. Data Input Form (+ Mode)
