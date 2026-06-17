@@ -59,25 +59,27 @@ Create a .env file in the frontend root folder if running across a private netwo
 Note: If you want to access the app from other computers on the local network, run:
     ```bash
     npm run dev -- --host
+    ```
 
-Application Preview & Features
-1. Data Input Form (+ Mode)
+
+## Application Preview & Features
+### 1. Data Input Form (+ Mode)
 An interactive and validated data transmission form enforcing specific logical thresholds:
 
-Altitude: 0 to 3,000 feet
+* Altitude: 0 to 3,000 feet
 
-HSI (Compass): 0 to 360 degrees
+* HSI (Compass): 0 to 360 degrees
 
-ADI (Horizon): -100 to 100 pitch units
+* ADI (Horizon): -100 to 100 pitch units
 
-2. Text Summary View (TEXT Mode)
+### 2. Text Summary View (TEXT Mode)
 Displays raw, synchronized text telemetry data fetched directly from the cloud database, wrapped in structured circular cards.
 
-3. Graphical Cockpit Gauges (VISUAL Mode)
+### 3. Graphical Cockpit Gauges (VISUAL Mode)
 Real-time rendered avionics metrics featuring:
 
-An active vertical slider track for the Altimeter.
+* An active vertical slider track for the Altimeter.
 
-A dynamically rotating HSI compass wheel based on vector calculations.
+* A dynamically rotating HSI compass wheel based on vector calculations.
 
-A smooth linear-gradient sky/ground representation for the ADI artificial horizon.
+* A smooth linear-gradient sky/ground representation for the ADI artificial horizon.
